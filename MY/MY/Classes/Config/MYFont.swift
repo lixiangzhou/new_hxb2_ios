@@ -18,6 +18,8 @@ extension my {
         
         static let f32 = UIFont(name: fontName, size: 32)!
         
+        static let f30 = UIFont(name: fontName, size: 30)!
+        
         static let f25 = UIFont(name: fontName, size: 25)!
         
         static let f19 = UIFont(name: fontName, size: 19)!

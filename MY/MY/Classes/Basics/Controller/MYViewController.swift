@@ -27,7 +27,7 @@ class MYViewController: UIViewController {
     var isInnerVC = false
     
     /// 返回按钮的样式
-    var backItemStyle: HXBNavBackItemImageStyle = .gray {
+    var backItemStyle: MYNavBackItemImageStyle = .gray {
         didSet {
             if isInnerVC {
                 return
@@ -53,7 +53,7 @@ class MYViewController: UIViewController {
     }
     
     /// 导航栏的背景样式
-    var navigationBarBackgroundStyle: HXBNavigationBarBackgroundStyle = .white {
+    var navigationBarBackgroundStyle: MYNavigationBarBackgroundStyle = .white {
         didSet {
             if isInnerVC {
                 return
@@ -85,6 +85,7 @@ class MYViewController: UIViewController {
 // MARK: - UI
 extension MYViewController {
     fileprivate func setUI() {
+        view.backgroundColor = UIColor.white
         backItemStyle = .gray
         navigationBarBackgroundStyle = .white
     }
@@ -117,13 +118,13 @@ extension MYViewController {
 
 // MARK: - Other
 extension MYViewController: MYReactiveProtocol {
-    enum HXBNavBackItemImageStyle {
+    enum MYNavBackItemImageStyle {
         case white
         case gray
         case none
     }
     
-    enum HXBNavigationBarBackgroundStyle {
+    enum MYNavigationBarBackgroundStyle {
         case white
         case gradientRed
         case clear

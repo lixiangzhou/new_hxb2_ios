@@ -49,6 +49,7 @@
 		8D88C2C221088A3A005E2A24 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B921088A3A005E2A24 /* Array+Safe.swift */; };
 		8D88C2C321088A3A005E2A24 /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2BA21088A3A005E2A24 /* CGPoint+Distance.swift */; };
 		8D88C2C421088A3A005E2A24 /* MMBannerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2BB21088A3A005E2A24 /* MMBannerLayout.swift */; };
+		8D88C2C821088DC7005E2A24 /* MYSignWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2C721088DC7005E2A24 /* MYSignWelcomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		8D88C2B921088A3A005E2A24 /* Array+Safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
 		8D88C2BA21088A3A005E2A24 /* CGPoint+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Distance.swift"; sourceTree = "<group>"; };
 		8D88C2BB21088A3A005E2A24 /* MMBannerLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBannerLayout.swift; sourceTree = "<group>"; };
+		8D88C2C721088DC7005E2A24 /* MYSignWelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYSignWelcomeController.swift; sourceTree = "<group>"; };
 		D114EE052AE1D396547D2015 /* Pods-MY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MY/Pods-MY.debug.xcconfig"; sourceTree = "<group>"; };
 		DE763B30C58AF6A08E383B82 /* Pods-MY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY.release.xcconfig"; path = "Pods/Target Support Files/Pods-MY/Pods-MY.release.xcconfig"; sourceTree = "<group>"; };
 		EC0C7CFA670FDE535DA1FD17 /* Pods_MY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,6 +292,7 @@
 		8D88C27521087B25005E2A24 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				8D88C2C521088D6C005E2A24 /* SignIn */,
 				8D88C27C21087B60005E2A24 /* Controller */,
 				8D88C27B21087B60005E2A24 /* Model */,
 				8D88C27D21087B60005E2A24 /* View */,
@@ -394,6 +397,22 @@
 				8D88C2BA21088A3A005E2A24 /* CGPoint+Distance.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D88C2C521088D6C005E2A24 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C2C621088D8B005E2A24 /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		8D88C2C621088D8B005E2A24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C2C721088DC7005E2A24 /* MYSignWelcomeController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -560,6 +579,7 @@
 				8D88C29121087E95005E2A24 /* MYError.swift in Sources */,
 				8D88C26621087A70005E2A24 /* MYViewController.swift in Sources */,
 				8D88C26A21087A99005E2A24 /* MYTabBarController.swift in Sources */,
+				8D88C2C821088DC7005E2A24 /* MYSignWelcomeController.swift in Sources */,
 				8D88C26C21087AB3005E2A24 /* MYTableView.swift in Sources */,
 				8D88C2C121088A3A005E2A24 /* CollectionViewCalculate.swift in Sources */,
 				8D88C28021087C0F005E2A24 /* MYReactiveProtocol.swift in Sources */,
