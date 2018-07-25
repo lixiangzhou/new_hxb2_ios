@@ -40,6 +40,15 @@
 		8D88C2AB21088713005E2A24 /* MYRequestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2AA21088713005E2A24 /* MYRequestApi.swift */; };
 		8D88C2AD21088720005E2A24 /* MYNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2AC21088720005E2A24 /* MYNetworkManager.swift */; };
 		8D88C2AF2108872F005E2A24 /* MYNetActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2AE2108872F005E2A24 /* MYNetActivityManager.swift */; };
+		8D88C2BC21088A3A005E2A24 /* ActiveBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B121088A3A005E2A24 /* ActiveBuilder.swift */; };
+		8D88C2BD21088A3A005E2A24 /* ActiveLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B221088A3A005E2A24 /* ActiveLabel.swift */; };
+		8D88C2BE21088A3A005E2A24 /* ActiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B321088A3A005E2A24 /* ActiveType.swift */; };
+		8D88C2BF21088A3A005E2A24 /* RegexParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B421088A3A005E2A24 /* RegexParser.swift */; };
+		8D88C2C021088A3A005E2A24 /* StringTrimExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B521088A3A005E2A24 /* StringTrimExtension.swift */; };
+		8D88C2C121088A3A005E2A24 /* CollectionViewCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B721088A3A005E2A24 /* CollectionViewCalculate.swift */; };
+		8D88C2C221088A3A005E2A24 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2B921088A3A005E2A24 /* Array+Safe.swift */; };
+		8D88C2C321088A3A005E2A24 /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2BA21088A3A005E2A24 /* CGPoint+Distance.swift */; };
+		8D88C2C421088A3A005E2A24 /* MMBannerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88C2BB21088A3A005E2A24 /* MMBannerLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +86,15 @@
 		8D88C2AA21088713005E2A24 /* MYRequestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYRequestApi.swift; sourceTree = "<group>"; };
 		8D88C2AC21088720005E2A24 /* MYNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNetworkManager.swift; sourceTree = "<group>"; };
 		8D88C2AE2108872F005E2A24 /* MYNetActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYNetActivityManager.swift; sourceTree = "<group>"; };
+		8D88C2B121088A3A005E2A24 /* ActiveBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveBuilder.swift; sourceTree = "<group>"; };
+		8D88C2B221088A3A005E2A24 /* ActiveLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveLabel.swift; sourceTree = "<group>"; };
+		8D88C2B321088A3A005E2A24 /* ActiveType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveType.swift; sourceTree = "<group>"; };
+		8D88C2B421088A3A005E2A24 /* RegexParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexParser.swift; sourceTree = "<group>"; };
+		8D88C2B521088A3A005E2A24 /* StringTrimExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTrimExtension.swift; sourceTree = "<group>"; };
+		8D88C2B721088A3A005E2A24 /* CollectionViewCalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCalculate.swift; sourceTree = "<group>"; };
+		8D88C2B921088A3A005E2A24 /* Array+Safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
+		8D88C2BA21088A3A005E2A24 /* CGPoint+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Distance.swift"; sourceTree = "<group>"; };
+		8D88C2BB21088A3A005E2A24 /* MMBannerLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBannerLayout.swift; sourceTree = "<group>"; };
 		D114EE052AE1D396547D2015 /* Pods-MY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MY/Pods-MY.debug.xcconfig"; sourceTree = "<group>"; };
 		DE763B30C58AF6A08E383B82 /* Pods-MY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MY.release.xcconfig"; path = "Pods/Target Support Files/Pods-MY/Pods-MY.release.xcconfig"; sourceTree = "<group>"; };
 		EC0C7CFA670FDE535DA1FD17 /* Pods_MY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +251,8 @@
 		8D88C27121087AE6005E2A24 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				8D88C2B021088A3A005E2A24 /* ActiveLabel */,
+				8D88C2B621088A3A005E2A24 /* MMBannerLayout */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -343,6 +363,37 @@
 				8D88C2A82108836B005E2A24 /* MYShakeConfigUrlView.swift */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		8D88C2B021088A3A005E2A24 /* ActiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C2B121088A3A005E2A24 /* ActiveBuilder.swift */,
+				8D88C2B221088A3A005E2A24 /* ActiveLabel.swift */,
+				8D88C2B321088A3A005E2A24 /* ActiveType.swift */,
+				8D88C2B421088A3A005E2A24 /* RegexParser.swift */,
+				8D88C2B521088A3A005E2A24 /* StringTrimExtension.swift */,
+			);
+			path = ActiveLabel;
+			sourceTree = "<group>";
+		};
+		8D88C2B621088A3A005E2A24 /* MMBannerLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C2B721088A3A005E2A24 /* CollectionViewCalculate.swift */,
+				8D88C2B821088A3A005E2A24 /* Extension */,
+				8D88C2BB21088A3A005E2A24 /* MMBannerLayout.swift */,
+			);
+			path = MMBannerLayout;
+			sourceTree = "<group>";
+		};
+		8D88C2B821088A3A005E2A24 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D88C2B921088A3A005E2A24 /* Array+Safe.swift */,
+				8D88C2BA21088A3A005E2A24 /* CGPoint+Distance.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,7 +535,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D88C2C221088A3A005E2A24 /* Array+Safe.swift in Sources */,
 				8D88C29321087EB0005E2A24 /* MYCode.swift in Sources */,
+				8D88C2BE21088A3A005E2A24 /* ActiveType.swift in Sources */,
 				8D88C24C210879B1005E2A24 /* AppDelegate.swift in Sources */,
 				8D88C2AF2108872F005E2A24 /* MYNetActivityManager.swift in Sources */,
 				8D88C2AD21088720005E2A24 /* MYNetworkManager.swift in Sources */,
@@ -495,22 +548,29 @@
 				8D88C28921087D60005E2A24 /* MYString.swift in Sources */,
 				8D88C29721087F05005E2A24 /* MYAPI.swift in Sources */,
 				8D88C2A3210880CA005E2A24 /* UIImageView+MY.swift in Sources */,
+				8D88C2C421088A3A005E2A24 /* MMBannerLayout.swift in Sources */,
+				8D88C2C021088A3A005E2A24 /* StringTrimExtension.swift in Sources */,
 				8D88C26421087A52005E2A24 /* MYModel.swift in Sources */,
 				8D88C28321087C6C005E2A24 /* MYHomeController.swift in Sources */,
 				8D88C28D21087E33005E2A24 /* MYConfig.swift in Sources */,
 				8D88C28F21087E4D005E2A24 /* MYFont.swift in Sources */,
 				8D88C28521087C7A005E2A24 /* MYMineController.swift in Sources */,
 				8D88C29521087EC4005E2A24 /* MYLength.swift in Sources */,
+				8D88C2BC21088A3A005E2A24 /* ActiveBuilder.swift in Sources */,
 				8D88C29121087E95005E2A24 /* MYError.swift in Sources */,
 				8D88C26621087A70005E2A24 /* MYViewController.swift in Sources */,
 				8D88C26A21087A99005E2A24 /* MYTabBarController.swift in Sources */,
 				8D88C26C21087AB3005E2A24 /* MYTableView.swift in Sources */,
+				8D88C2C121088A3A005E2A24 /* CollectionViewCalculate.swift in Sources */,
 				8D88C28021087C0F005E2A24 /* MYReactiveProtocol.swift in Sources */,
 				8D88C2A92108836B005E2A24 /* MYShakeConfigUrlView.swift in Sources */,
 				8D88C28721087D34005E2A24 /* MYNet.swift in Sources */,
 				8D88C29921087F66005E2A24 /* MYKeychain.swift in Sources */,
 				8D88C2A721088335005E2A24 /* UILabel+MY.swift in Sources */,
+				8D88C2BD21088A3A005E2A24 /* ActiveLabel.swift in Sources */,
 				8D88C2A5210880EB005E2A24 /* UIImage+MY.swift in Sources */,
+				8D88C2C321088A3A005E2A24 /* CGPoint+Distance.swift in Sources */,
+				8D88C2BF21088A3A005E2A24 /* RegexParser.swift in Sources */,
 				8D88C29F21087FF4005E2A24 /* MYHUD.swift in Sources */,
 				8D88C26E21087ACB005E2A24 /* MYViewModel.swift in Sources */,
 				8D88C28B21087D7C005E2A24 /* MYColor.swift in Sources */,
